@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Login</title>
+  </head>
+  <body>
+      <div class="container">
+          <div class="form">
+              <form action="#">
+                  <div class="form-header">
+                      <div class="title">
+                      <h1>Login</h1>
+                      </div>    
+                  </div>
+                          <div class="input-box">
+                            <label for="allname">E-mail</label>
+                            <input id="allname" type="email" name="allname" placeholder="Digite seu nome ou E-mail" required>
+                          </div>
+                          <div class="input-box">    
+                            <label for="password">Senha</label>
+                            <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                            <i class="bi bi-eye-fill" id="btn-password" onclick="ShowPassword()"></i>
+                          </div>
+
+                      <div class="login-button">
+                        <button><a href="../HTML/perfil.html">Entrar</a></button>
+                      </div>  
+              </form>
+          </div>
+          <div class="form-image">
+            <img src="../img/Logo.png" alt="">
+          </div>
+      </div>
+<script src="../JS/Login.js"></script>
+  </body>
+</html>
