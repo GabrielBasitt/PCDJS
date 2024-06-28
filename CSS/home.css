@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Kay+Pho+Du:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.container:before {
+  content: "";
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  background-color: #ffffff;
+  
+}
+
+.header {
+  width:100%;
+  height: 10vh;
+  padding: 20px 20px 20px 20px;
+  background-color: #00d2f7;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  z-index: 100;
+  justify-content: space-between;
+  
+
+}
+.container-body {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+ 
+
+}
+
+.text-logo {
+  font-size: 50px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+
+
+}
+
+.cadastrar-button button {
+  width: 150px;
+  margin-top: 2.5rem;
+  border: none;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0.5px 0.5px 1px solid #000000 1px solid #000000 rgba(0, 0, 0, 0.082);
+  border: 2px solid rgba(8, 8, 8, 0.281);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.cadastrar-button button:hover {
+  background-color: #d3ebf3f5;
+}
+
+.cadastrar-button button a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+}
+
+.logar-button button {
+  width: 110px;
+  margin-top: 2.5rem;
+  border: none;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 15px;
+  box-shadow: 0.5px 0.5px 1px solid #000000 1px solid #000000 rgba(0, 0, 0, 0.082);
+  border: 2px solid rgba(8, 8, 8, 0.281);
+  cursor: pointer;
+}
+
+.logar-button button:hover {
+  background-color: #d3ebf3f5;
+}
+
+.logar-button button a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+}
+
+.separation-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 13%;
+  gap: 20px;
+}
+
+
+
+.line-landingPage {
+  border: 1px  solid rgba(255, 255, 255, 0.692);
+}
+.big-logo {
+    height: 25%;
+    border: 2px  solid rgba(0, 0, 0, 0.692);
+
+}
+.logo {
+    height: 400px;
+    width: 500px;
+}
+.text-about-site {
+    width: 50%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+    gap: 20px;
+}
+
+.text-h1 {
+    color: #000000;
+    text-shadow: 1px 1px 1px #000;;
+}
+
+.text-h2 {
+    margin-top: 30px;
+    color: #000000;
+    text-shadow: 1px 1px 1px #000;
+}
+
+@media (max-width: 1390px) {
+  .big-logo{
+    margin-top: 4vh;
+  }
+}
+  @media(max-width: 1134px) {
+    .big-logo{
+      margin-top: 8vh;
+  }
+}
+@media(max-width: 1018px) {
+  .big-logo{
+    margin-top: 12vh;
+  }
+}
+@media(max-width: 960px) {
+  .container-body {
+    width: 100%;
+    height: 90%;
+    background-color: #108645;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    }
+  .big-logo{
+    margin-top: 0vh;
+  }
+}
+@media(max-width: 674px) {
+  .espacamento-div{
+    height: 10px;
+  }
+}
+@media(max-width: 545px) {
+  .header {
+    width: 110%;
+  }
+  .container-body {
+    width: 110%;
+  }
+  .line-landingPage {
+    width: 110%;
+  }
+}
+@media(max-width: 455px) {
+  .header {
+    width: 120%;
+  }
+  .container-body {
+    width: 120%;
+  }
+  .line-landingPage {
+    width: 120%;
+  }
+}
+@media(max-width: 435px) {
+  .header {
+    width: 125%;
+  }
+  .container-body {
+    width: 125%;
+  }
+  .line-landingPage {
+    width: 125%;
+  }
+}
+@media(max-width: 395px) {
+  .header {
+    width: 135%;
+  }
+  .container-body {
+    width: 135%;
+  }
+  .line-landingPage {
+    width: 135%;
+  }
+}
+@media(max-width: 385px) {
+  .header {
+    width: 140%;
+  }
+  .container-body {
+    width: 140%;
+  }
+  .line-landingPage {
+    width: 140%;
+  }
+}

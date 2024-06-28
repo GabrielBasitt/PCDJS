@@ -11,11 +11,6 @@ a {
 }
 
 #fade,
-#modal {
-  transition: 0.5s;
-  opacity: 1;
-  pointer-events: all;
-}
 
 .randon-button {
   opacity: 0;
@@ -31,76 +26,8 @@ a {
   display: flex;
 }
 
-#modal {
-  position: fixed;
-  right: 1.6%;
-  top: 9vh;
-  z-index: 10;
-  background-color: #fff;
-  width: 250px;
-  height: 150px;
-  border-radius: 5% 0 5% 5%;
-  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.212);
-}
-
-#modal.hide,
-#fade.hide {
-  opacity: 0;
-  pointer-events: none;
-}
-
-.modal-body {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.modal-to-perfil {
-  width: 80%;
-  border: 2px solid rgba(8, 8, 8, 0.281);
-  margin-top: 20px;
-  border-radius: 15px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.082);
-}
-
-.modal-logout-account {
-  margin-top: 30px;
-  width: 80%;
-  border: 2px solid rgba(8, 8, 8, 0.281);
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  height: 30px;
-  box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.082);
-}
-
-.modal-to-perfil:hover {
-  background-color: #cdfae2;
-}
-
-.modal-logout-account:hover {
-  background-color: #cdfae2;
-}
-
-.sair-icon {
-  margin-left: 5px;
-}
-.text-modal-sair {
-  margin-left: 5px;
-  color: #07753a;
-}
-
-.text-modal-perfil {
-  margin-left: 5px;
-  color: #07753a;
-}
-
 .header {
-  background-color: #07753a;
+  background-color: #00d2f7;
   padding-inline: 16px;
 }
 
@@ -131,74 +58,6 @@ a {
   color: #fff;
   padding-block: 16px;
 }
-
-.hamburguer {
-  border: none;
-  background: none;
-  border-top: 3px solid #fff;
-  cursor: pointer;
-  display: none;
-}
-
-.hamburguer::before,
-.hamburguer::after {
-  content: " ";
-  display: block;
-  width: 30px;
-  height: 3px;
-  background: #fff;
-  margin-top: 5px;
-  position: relative;
-  transition: 0.3s;
-}
-
-.foto-nav {
-  border-radius: 50%;
-  content: "";
-  cursor: pointer;
-  height: 3rem;
-  position: fixed;
-  width: 3rem;
-}
-
-.foto-nav-container {
-  background: url(../img/UserPrime.png) no-repeat 50% / cover;
-  border-radius: 50%;
-  content: "";
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 3rem;
-  position: relative;
-  width: 3rem;
-  opacity: 1;
-  z-index: 0;
-}
-
-.foto-nav-modal {
-  border-radius: 50%;
-  content: "";
-  cursor: pointer;
-  height: 2rem;
-  position: fixed;
-  width: 2rem;
-}
-
-.foto-nav-container-modal {
-  background: url(../img/UserPrime.png) no-repeat 50% / cover;
-  border-radius: 50%;
-  content: "";
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 2rem;
-  position: relative;
-  margin-left: 5px;
-  width: 2rem;
-}
-
 .hero {
   height: calc(100vh - 70px);
   background-color: #f7f5f5;
@@ -370,4 +229,12 @@ a {
   .foto-nav-container-perfil {
     z-index: 0;
   }
+}
+.text-logo {
+  font-size: 50px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+
+
 }

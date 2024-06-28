@@ -18,9 +18,10 @@ body {
 
 .container {
     width: 70%;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, .212);
+    border-radius: 5px solid black;
 }
 
 .form-image {
@@ -29,6 +30,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #fcfcfcd7;
+
 }
 
 img {
